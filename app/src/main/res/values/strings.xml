@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IT19073774</string>
+    <string name="admin_panel">-- Admin Panel --</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="movie_year">Movie Year</string>
+    <string name="add">add</string>
+    <string name="movies">Movies</string>
+    <string name="textview">TextView</string>
+    <string name="comments">Comments</string>
+    <string name="submit">Submit</string>
+    <string name="current_rating">Current Rating</string>
+    <string name="movie_overview">-- Movie Overview --</string>
+    <string name="register">Register</string>
+    <string name="login_here">-- Login Here --</string>
+    <string name="movies_list">-- Movies List --</string>
+    <string name="comment_here">Comment Here :</string>
+</resources>
