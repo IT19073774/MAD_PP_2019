@@ -58,11 +58,12 @@ public class MovieListAdapter extends RecyclerView.Adapter<MovieListAdapter.View
 
     // stores and recycles views as they are scrolled off screen
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        TextView myTextView;
+        TextView myTextView, year;
 
         ViewHolder(View itemView) {
             super(itemView);
             myTextView = itemView.findViewById(R.id.moviename);
+            year = itemView.findViewById(R.id.year);
             itemView.setOnClickListener(this);
         }
 

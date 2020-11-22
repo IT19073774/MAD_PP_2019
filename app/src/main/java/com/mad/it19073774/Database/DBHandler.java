@@ -189,7 +189,8 @@ public class DBHandler extends SQLiteOpenHelper {
 
         List movienames = new ArrayList<>();
         while(cursor.moveToNext()) {
-            String movie = cursor.getString(cursor.getColumnIndexOrThrow(DatabaseMaster.Movie.MOVIENAME));
+            String movie = cursor.getString(cursor.getColumnIndexOrThrow(DatabaseMaster.Movie.MOVIENAME)) + " - " +
+                    cursor.getString(cursor.getColumnIndexOrThrow(DatabaseMaster.Movie.MOVIEYEAR));
             movienames.add(movie);
         }
         cursor.close();

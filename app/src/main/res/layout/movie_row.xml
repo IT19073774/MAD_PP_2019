@@ -5,14 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
-    android:orientation="vertical">
+    android:background="@drawable/border"
+    android:orientation="horizontal">
 
     <TextView
         android:id="@+id/moviename"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:background="@drawable/border"
+        android:paddingBottom="0dp"
+        android:text="Movie"
         android:textSize="20sp"/>
 
 </LinearLayout>
